@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        tools:context=".ProfileActivity">
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp" android:src="@drawable/kolly" tools:srcCompat="@drawable/kolly"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="46dp"/>
+    <TextView
+            android:text="Track: Android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView" app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:layout_marginTop="48dp"/>
+    <TextView
+            android:text="Country: Nigeria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView2" app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginTop="52dp"/>
+    <TextView
+            android:text="Email: arisekolakolade1@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView3" app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:layout_marginTop="44dp"/>
+    <TextView
+            android:text="Phone number: 07038882605"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView4" app:layout_constraintTop_toBottomOf="@+id/textView3"
+            android:layout_marginTop="56dp"/>
+    <TextView
+            android:text="Slack UserName: Kolaaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/textView5" android:layout_marginTop="68dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+</android.support.constraint.ConstraintLayout>
